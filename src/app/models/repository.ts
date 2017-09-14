@@ -22,7 +22,6 @@ export class Repository {
 
     selectVideo(id: number)  {
         this.currentVideo = this.videos.find(item => item.videoId == id);
-        console.log(this.currentVideo.name);
     }
 
 }
