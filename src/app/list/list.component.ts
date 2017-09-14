@@ -7,7 +7,7 @@ import { Repository } from "../models/repository";
     styleUrls: ['./list.component.css']
 })
 export class ListComponent {
-    constructor(private repo: Repository) {
+    constructor(public repo: Repository) {
     }
 
     selectVideo(id: number) {

@@ -28,7 +28,7 @@ export class VideoComponent {
     togglePlayUrl: string = this.PLAY_URL;
     toggleMuteUrl: string = this.MUTE_URL;
 
-    constructor(private repo: Repository) {
+    constructor(public repo: Repository) {
     }
 
     ngAfterViewInit() {
